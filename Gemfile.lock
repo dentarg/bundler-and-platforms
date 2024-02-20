@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    concurrent-ruby (1.2.3)
     mini_portile2 (2.8.5)
     nokogiri (1.16.2)
       mini_portile2 (~> 2.8.2)
@@ -15,6 +16,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  concurrent-ruby (~> 1.2)
   nokogiri (~> 1.16)
   rack (~> 3.0)
 
